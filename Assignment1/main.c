@@ -10,7 +10,6 @@
 #include <linux/uaccess.h>
 #include <linux/random.h>
 #include <linux/version.h>
-#include <linux/time.h>
 
 #define MAJOR_NUM 100
 #define IOCTL_WRITE _IOW(MAJOR_NUM, 0, int16_t*)
@@ -57,7 +56,7 @@ static ssize_t adc_read(struct file *f, char __user *buf, size_t len, loff_t *of
  	
 	i = 0;
 
-	while (number % 1024 != 0) 
+	while (number != 0) 
 	{ 
 		// storing remainder in binary array
 

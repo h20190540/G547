@@ -1,2 +1,2 @@
-/home/vaga/Device_Driver/Assignment_adc/main.o
+/home/vaga/Device_Driver/Assignment1/main.o
 
