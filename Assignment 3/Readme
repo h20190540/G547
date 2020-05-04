@@ -1,0 +1,15 @@
+STEPS TO EXECUTE THIS CODE-
+cd assignment3
+make all
+sudo insmod main.ko
+sudo rmmod uas
+sudo rmmod usb_storage
+sudo -i
+sudo mkdir -p /media/name_of_directory
+sudo mount /dev/akanksha1 /media/name_of_directory
+cd /media/name_of_directory
+ls
+get list of files that are present in the pendrive
+add new file at that path using sudo
+to unmount device : $ sudo unmount /media/name_of_directory
+rmmod main and then only remove the pendrive

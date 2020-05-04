@@ -1,0 +1,1 @@
+cmd_/home/vaga/Assignment3/main.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/vaga/Assignment3/main.ko /home/vaga/Assignment3/main.o /home/vaga/Assignment3/main.mod.o ;  true
